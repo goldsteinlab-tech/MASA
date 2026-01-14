@@ -67,8 +67,7 @@ See the vignette
 
 ### Documentation
 Full documentation, including tutorials and API reference, is available at:
-[https://goldsteinlab-tech.github.io/MASA/docs/masa_vignette.html]
-
+[https://goldsteinlab-tech.github.io/MASA/masa_vignette.html]
 The documentation covers:
 
 Installation and configuration

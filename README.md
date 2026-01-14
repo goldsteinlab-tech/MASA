@@ -36,7 +36,7 @@ You can install it in R with:
 
 ```r
 # install.packages("remotes") # run this once if you don't have it
-remotes::install_github("goldsteinlab-tech/masa", ref = "main")
+remotes::install_github("goldsteinlab-tech/MASA", ref = "main")
 ```
 
 ### Using conda 

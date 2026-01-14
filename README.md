@@ -42,11 +42,7 @@ remotes::install_github("goldsteinlab-tech/MASA", ref = "main")
 ### Using conda 
 
 ```bash
-conda install -c conda-forge masa
-```
-Using pip
-```bash
-pip install masa
+conda install goldsteinlab-tech::masa
 ```
 
 ### Requirements

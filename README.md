@@ -41,8 +41,25 @@ remotes::install_github("goldsteinlab-tech/MASA", ref = "main")
 
 ### Using conda 
 
+
+#### 📦 Conda Installation
+
+To install **MASA**, you need to ensure that `conda-forge` is available in your channels to resolve dependencies (such as R and its libraries).
+
+**1. Configure channels (One-time setup):**
+We recommend setting up your channel priority as follows:
+
 ```bash
-conda install goldsteinlab-tech::masa
+conda config --add channels conda-forge
+conda config --add channels goldsteinlab-tech
+conda config --set channel_priority strict```
+conda install masa
+```
+
+To install MASA and automatically resolve all dependencies, please use the following command:
+
+```bash
+conda install -c goldsteinlab-tech -c conda-forge masa
 ```
 
 ### Requirements

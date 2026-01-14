@@ -24,27 +24,48 @@ MASA provides a robust solution for extracting biologically meaningful TF activi
 
 ## Installation
 
+## Overview
+
+**masa** is a publicly released R package.
+The code in this repository corresponds to the final version described in the associated publication(s).
+
+### Using R
+The current official release of **masa** is available on GitHub.
+
+You can install it in R with:
+
+```r
+# install.packages("remotes") # run this once if you don't have it
+remotes::install_github("goldsteinlab-tech/masa", ref = "main")
+```
+
 ### Using conda 
 
 ```bash
 conda install -c conda-forge masa
-
+```
 Using pip
-bash
+```bash
 pip install masa
+```
 
-Requirements
+### Requirements
 R >=4.3
-python >=3.14
+
 DEseq2 R library
+
 HOMER v5
+
+#### Using conda:
+python >=3.14
+
 
 Tested on Linux 
 
-Quick Start
+### Quick Start
 See the vignette
 
-Documentation
+### Documentation
 Full documentation, including tutorials and API reference, is available at:
 [https://goldsteinlab-tech.github.io/MASA/docs/masa_vignette.html]
 
@@ -56,6 +77,7 @@ End-to-end tutorials
 
 Reproducible analysis workflows
 
+### Workflow reproducibility
 The data to reproduce the vignette workflow are avalaible here:
 ZELANDO
 
@@ -70,7 +92,7 @@ hg19:
 The complete results from the workflow is available here:
 DOI
 
-Citation
+### Citation
 If you use MASA in scientific work, please cite:
 
 text
@@ -85,14 +107,14 @@ text
 Zenodo record: https://doi.org/10.5281/zenodo.XXXXXXX
 
 
-License
+### License
 This project is licensed under the GNU License – see the LICENSE file for details.
 
-Acknowledgments
+### Acknowledgments
 This work was supported by the European Research Council to IG (ERC-StG #947907).
 We thank Noga Korenfeld for her contributions and feedback.
 
-Contact
+### Contact
 Maintainer: ido.goldstein@mail.huji.ac.il
 
 Issues and bugs: https://github.com/goldsteinlab-tech/MASA/issues

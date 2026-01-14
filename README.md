@@ -50,16 +50,17 @@ To install **MASA**, you need to ensure that `conda-forge` is available in your 
 We recommend setting up your channel priority as follows:
 
 ```bash
+conda config --add channels bioconda
 conda config --add channels conda-forge
 conda config --add channels goldsteinlab-tech
-conda config --set channel_priority strict```
+conda config --set channel_priority strict
 conda install masa
 ```
 
 To install MASA and automatically resolve all dependencies, please use the following command:
 
 ```bash
-conda install -c goldsteinlab-tech -c conda-forge masa
+conda install -c goldsteinlab-tech -c conda-forge -c bioconda masa
 ```
 
 ### Requirements

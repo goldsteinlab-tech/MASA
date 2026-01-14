@@ -1,0 +1,59 @@
+/* style.css dans /vignettes/ */
+body {
+  font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  background-color: #f9f6f3;
+  color: #2c2c2c;
+  max-width: 850px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+h1, h2, h3 {
+  color: #355C7D;
+  font-weight: 700;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 6px;
+}
+h1.title {
+  text-align: center;
+  font-size: 2.3em;
+  margin-top: 30px;
+}
+p.author {
+  text-align: center;
+  color: #6c757d;
+  font-size: 1.1em;
+  margin-bottom: 25px;
+}
+pre, code {
+  background: #f1ecec;
+  border-radius: 4px;
+  padding: 2px 6px;
+  color: #872258;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+  background: #fff;
+}
+td, th {
+  border: 1px solid #e7e6e1;
+  padding: 8px 10px;
+}
+th {
+  background: #f2e9e2;
+  color: #355c7d;
+}
+blockquote {
+  border-left: 4px solid #83afd7;
+  background: #f6fafe;
+  padding: 1em;
+  color: #355c7d;
+  margin: 1em 0;
+}
+a {
+  color: #559bc7;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}

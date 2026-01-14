@@ -1,0 +1,13 @@
+# System and cache files
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+.DS_Store
+
+# Temporary dev files
+devtools_history.R
+
+# Build directories (do not upload binaries)
+src/*.o
+src/*.so

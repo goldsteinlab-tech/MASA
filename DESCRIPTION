@@ -1,0 +1,31 @@
+Package: masa
+Title: masa
+Version: 0.0.0.9000
+Authors@R: 
+    person("Leslie", "Cohen", , "leslie.cohen@mail.huji.ac.il", role = c("aut", "cre"))
+Description: motif associated sign of activity
+License: GPL-3
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.3
+Imports: 
+    aplpack,
+    BSgenome.Hsapiens.UCSC.hg19,
+    BSgenome.Mmusculus.UCSC.mm9,
+    Cairo,
+    data.table,
+    digest,
+    hash,
+    magrittr,
+    parallel,
+    Rsamtools,
+    stats,
+    ggplot2,
+    dplyr,
+    ggExtra,
+    DESeq2,
+    bedtoolsr
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr

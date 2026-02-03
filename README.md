@@ -82,18 +82,7 @@ End-to-end tutorials
 Reproducible analysis workflows
 
 ### Workflow reproducibility
-The data to reproduce the vignette workflow are avalaible here: https://doi.org/10.5281/zenodo.18182843
-
-The motifDB is available here:
-mm10:
-hg19:
-
-The nuccode files are avialable here:
-mm10:
-hg19:
-
-The complete results from the workflow is available here:
-DOI
+The data to reproduce the vignette workflow, and the motifDB, nuccode files, and complete results are avalaible here: [DOI](https://doi.org/10.5281/zenodo.18182843) 
 
 ### Citation
 

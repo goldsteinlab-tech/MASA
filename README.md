@@ -82,8 +82,7 @@ End-to-end tutorials
 Reproducible analysis workflows
 
 ### Workflow reproducibility
-The data to reproduce the vignette workflow are avalaible here:
-ZELANDO
+The data to reproduce the vignette workflow are avalaible here: https://doi.org/10.5281/zenodo.18182843
 
 The motifDB is available here:
 mm10:

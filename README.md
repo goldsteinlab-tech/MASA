@@ -117,7 +117,6 @@ This project is licensed under the GNU License – see the LICENSE file for deta
 
 ### Acknowledgments
 This work was supported by the European Research Council to IG (ERC-StG #947907).
-We thank Noga Korenfeld for her contributions and feedback.
 
 ### Contact
 Maintainer: ido.goldstein@mail.huji.ac.il

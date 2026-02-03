@@ -1,11 +1,11 @@
 # MASA Library
 
-[![DOI](https://doi.org/)
-[![Conda Version](https:)
+DOI: pending (manuscript under review)
+[![Conda Version](https://anaconda.org/goldsteinlab-tech/masa/badges/version.svg)](https://anaconda.org/goldsteinlab-tech/masa)
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
 
-**MASA** MASA – a computational tool to predict transcription factor activity from ATAC-seq
+**MASA** – a computational tool to predict transcription factor activity from ATAC-seq
 MASA (Motif-Associated Signs of Activity) is a computational framework that infers differential TF activity directly from ATAC-seq data in an unbiased and multilayered manner. 
 
 ## Abstract
@@ -97,18 +97,18 @@ The complete results from the workflow is available here:
 DOI
 
 ### Citation
-If you use MASA in scientific work, please cite:
+If you use MASA in scientific work, please cite: ... work in review...
 
 text
 @software{masa_2026,
   author    = {Leslie Cohen and Ido Goldstein},
   title     = {MASA – a computational tool to predict transcription factor activity from ATAC-seq},
   year      = {2026},
-  publisher = {xxx},
-  doi       = {xxx},
-  url       = {xxx}
+  publisher = {manuscript under review},
+  doi       = {manuscript under review},
+  url       = {manuscript under review}
 }
-Zenodo record: https://doi.org/10.5281/zenodo.XXXXXXX
+Zenodo record: https://doi.org/10.5281/zenodo.18182843
 
 
 ### License

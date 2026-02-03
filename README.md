@@ -97,19 +97,20 @@ The complete results from the workflow is available here:
 DOI
 
 ### Citation
-If you use MASA in scientific work, please cite: ... work in review...
 
-text
-@software{masa_2026,
-  author    = {Leslie Cohen and Ido Goldstein},
-  title     = {MASA – a computational tool to predict transcription factor activity from ATAC-seq},
-  year      = {2026},
-  publisher = {manuscript under review},
-  doi       = {manuscript under review},
-  url       = {manuscript under review}
+If you use MASA in scientific work, please cite the software release:
+
+```bibtex
+@software{cohen_masa_2026,
+  author = {Cohen, Leslie and Goldstein, Ido},
+  title  = {MASA: a computational tool to predict transcription factor activity from ATAC-seq},
+  year   = {2026},
+  doi    = {Manuscript under review},
+  url    = {Manuscript under review},
+  note   = {Manuscript under review}
 }
-Zenodo record: https://doi.org/10.5281/zenodo.18182843
-
+```
+Manuscript: under review (DOI pending).
 
 ### License
 This project is licensed under the GNU License – see the LICENSE file for details.
